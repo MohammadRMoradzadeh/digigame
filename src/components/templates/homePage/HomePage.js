@@ -1,13 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Baner from "@/components/modules/baner/Baner";
 function HomePage() {
   return (
     <>
-    <div className=''>
-      
-    </div>
+      <Baner />
     </>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

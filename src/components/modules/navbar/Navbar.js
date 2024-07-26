@@ -9,7 +9,7 @@ function Navbar() {
   const pathname = usePathname();
   return (
     <>
-      <div className="hidden md:flex flex-col container">
+      <div className="hidden md:flex flex-col mx-16">
         <div className="flex flex-row justify-between px-3 mt-6 pb-3 border-b border-b-white">
           <div>
             <input

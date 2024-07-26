@@ -4,7 +4,6 @@ import { IoMenu, IoClose } from "react-icons/io5";
 import { LuSearch } from "react-icons/lu";
 import { CiShoppingBasket } from "react-icons/ci";
 import MobileMenu from "../mobileMenu/MobileMenu";
-
 import gsap from "gsap";
 
 import Image from "next/image";
