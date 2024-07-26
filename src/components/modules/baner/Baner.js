@@ -11,7 +11,7 @@ const Baner = () => {
       { x: 500, duration: 1 },
       { x: 0, stagger: 0.2, duration: 2, ease: "expo.out" }
     ).fromTo(
-      "button",
+      ".gamebutton",
       { opacity: 0 },
       { opacity: 1, duration: 2, ease: "expo.out" },
       "-=1"
@@ -44,10 +44,10 @@ const Baner = () => {
             </p>
           </div>
           <div className="flex flex-row gap-x-5 mt-6">
-            <button className="w-44 h-11 text-white text-Pinar-Medium rounded-xl bg-primary-700">
+            <button className="w-44 h-11 text-white text-Pinar-Medium rounded-xl bg-primary-700 gamebutton">
               مشاهده تریلر بازی
             </button>
-            <button className="w-44 h-11 text-white text-Pinar-Medium rounded-xl bg-[#AF0707]">
+            <button className="w-44 h-11 text-white text-Pinar-Medium rounded-xl bg-[#AF0707] gamebutton">
               اضافه شدن به سبد خرید
             </button>
           </div>
